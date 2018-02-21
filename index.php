@@ -46,13 +46,12 @@
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                
-                    <main>
-                        <div class="col-sm">
+            <main>
+                <div class="row">
+                    <div class="col-sm">
                         <aside id="categories">
                             <!-- Displays a list of categories -->
-                            <h2>Categories</h2>
+                            <h2 class="catTitle">Categories</h2>
                             <nav>
                                 <ul>
                                     <?php foreach($categories as $category) : ?>
@@ -65,12 +64,12 @@
                                 </ul>
                             </nav>
                         </aside>
-                        </div>
-                        <div class="col-sm">
+                    </div>
+                    <div class="col-sm">
                         <section>
                             <!-- Displays a table of the products -->
                             <h2><?php $category_name; ?></h2>
-                            <table>
+                            <table class="prod">
                                 <tr>
                                     <th>Code</th>
                                     <th>Name</th>
@@ -86,9 +85,10 @@
                                 <?php endforeach; ?>
                             </table>
                         </section>
-                        </div>
-                    </main>
-            </div>
+                    </div>
+                    <div class="col-sm"></div>
+                </div>
+            </main>
         </div>
     </body>
 </html>

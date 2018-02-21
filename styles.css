@@ -1,3 +1,53 @@
+body {
+    background-color: #0F0D3E;
+}
+/*  Category List   */
+#categories{
+    margin-top: 8px;
+    text-align: right;
+    border-right: 5px solid black;
+}
+
+.catTitle{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: #505DBE;
+}
+
+ul{
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: #670099;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color: #D8D5F4;
+    text-decoration: none;
+}
+
+
+/* Products */
+.prod{
+    border: 5px solid #4C2B64;
+    background-color: #D8D5F4;
+}
+.prod th{
+    background-color: #4C2B64;
+    padding-right: 10px;
+    text-align: center;
+    color: #B4D6F2;
+}
+
+.prod td {
+    border: 2px solid black;
+    padding: 10px;
+}
 
 .right {
     text-align: right;
